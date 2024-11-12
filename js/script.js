@@ -18,15 +18,15 @@ let wordSelect = '';
 // Detecta a query string e seleciona o array de palavras
 switch (data) {
     case "easy":
-        console.log("This is easy");
+        // console.log("This is easy");
         wordsSecrets = ["JAVA", "JAVASCRIPT", "PHP", "PYTHON"];
         break;
     case "medium":
-        console.log("This is medium");
+        // console.log("This is medium");
         wordsSecrets = ["PROGRAMMATION", "JAVASCRIPT", "CSS", "HTML", "PHP", "BASH", "TYPESCRIPT", "PYTHON"];
         break;
     case "hard":
-        console.log("This is hard");
+        // console.log("This is hard");
         wordsSecrets = ["PROGRAMMATION", "JAVASCRIPT", "CSS", "HTML", "PHP", "ELIXIR", "PASCAL", "LUA", "DART", "RUBY", "RUST", "COBOL", "TYPESCRIPT"];
         break;
     default:
