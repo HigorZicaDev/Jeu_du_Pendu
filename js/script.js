@@ -77,7 +77,7 @@ function randomWords() {
 // Função para atualizar a exibição da palavra e tentativas
 function updateDisplayWord() {
     containerWords.textContent = wordDisplay.join(" ");
-    display_attemps.innerHTML = `<h3>Tentativas: ${attempts}</h3>`;
+    display_attemps.innerHTML = `<h3>Tentatives: ${attempts}</h3>`;
 }
 
 // Fonction pour gérer les clics sur les lettres
