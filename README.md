@@ -1,4 +1,4 @@
-# Jeu de mots
+# Jeu du Pendu
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/f1b079c3-80c5-42a5-9399-072115317746" >
