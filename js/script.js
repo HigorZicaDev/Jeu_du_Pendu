@@ -12,7 +12,7 @@ let url_string = window.location.href;
 let url = new URL(url_string);
 let data = url.searchParams.get("niveau");
 let wordsSecrets = [];
-let wordSelect = '';
+let wordSelect = '';    
 
 // Détecte la chaîne de requête et sélectionne le tableau de mots
 // Detecta a query string e seleciona o array de palavras
@@ -30,6 +30,7 @@ switch (data) {
         wordsSecrets = ["PROGRAMMATION", "JAVASCRIPT", "CSS", "HTML", "PHP", "ELIXIR", "PASCAL", "LUA", "DART", "RUBY", "RUST", "COBOL", "TYPESCRIPT"];
         break;
     default:
+        wordsSecrets = ["JAVA", "JAVASCRIPT", "PHP", "PYTHON"];
         break;
 }
 
