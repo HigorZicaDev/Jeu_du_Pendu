@@ -24,3 +24,6 @@
 1. Clonez ce dépôt :
    ``bash
    git clone https://github.com/HigorZicaDev/Jeu_du_Pendu
+2. Commençons : 
+### Allez sur le lien de la page du jeu pour commencer un match : 
+<a href="https://higorzicadev.github.io/Jeu_du_Pendu" target="_blank">Demo</a>
